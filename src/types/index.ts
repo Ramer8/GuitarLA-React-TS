@@ -9,3 +9,6 @@ export type Guitar = {
 export type CartItem = Guitar & {
   quantity: number
 }
+
+// export type GuitarID = Guitar["id"]
+// no usamos el tipado y ponemos directamente Guitar["id"] en vez de GuitarID
