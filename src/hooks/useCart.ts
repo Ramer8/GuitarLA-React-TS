@@ -1,6 +1,6 @@
 import { useState, useEffect, useMemo } from "react"
 import { db } from "../data/db"
-import type { CartItem } from "../types"
+import type { Guitar, CartItem } from "../types"
 
 export const useCart = () => {
   const initialCart = (): CartItem[] => {
@@ -18,7 +18,7 @@ export const useCart = () => {
     localStorage.setItem("cart", JSON.stringify(cart))
   }, [cart])
 
-  function addToCart(item) {
+  function addToCart(item: Guitar) {
     const itemExists = cart.findIndex((guitar) => guitar.id === item.id)
     if (itemExists >= 0) {
       // existe en el carrito
@@ -27,8 +27,10 @@ export const useCart = () => {
       updatedCart[itemExists].quantity++
       setCart(updatedCart)
     } else {
-      item.quantity = 1
-      setCart([...cart, item])
+      const newItem: CartItem = { ...item, quantity: 1 }
+      //creamos newItem con el tipo de dato CartItem que ya tiene quantity incluido y le añadimos la
+      //cantidad y luego seteamos cart con el nuevo objeto.
+      setCart([...cart, newItem])
     }
   }
 
