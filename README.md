@@ -29,8 +29,7 @@ https://fluffy-twilight-5f9645.netlify.app/
 
 ---
 
-[![GITHUB]][github-url]![HTML]<a href="https://www.typescriptlang.org/"><img src= "https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/>
-![REACT]<img src= "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>![Netlify]
+[![GITHUB]][github-url]![HTML]<a href="https://www.typescriptlang.org/"><img src= "https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/>![REACT]<img src= "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>![Netlify]
 
 [Netlify]: https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white
 [HTML]: https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white
@@ -55,7 +54,7 @@ https://fluffy-twilight-5f9645.netlify.app/
 [GIT]: https://img.shields.io/badge/git-F54D27?style=for-the-badge&logo=git&logoColor=white
 [git-url]: https://git-scm.com/
 
-Thank you very much for your interest in my project. It's a shopping cart on vue.js
+Thank you very much for your interest in my project. It's a shopping cart on React.js
 
 ---
 
